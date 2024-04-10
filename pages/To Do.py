@@ -32,7 +32,7 @@ def handle_text_change():
     handle_input(text)
 
 
-# Session state for the text input
+# Criar o session_state chamado text_input caso ele nao exista
 if 'text_input' not in st.session_state:
     st.session_state['text_input'] = ''
 
